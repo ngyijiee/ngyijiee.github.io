@@ -406,12 +406,12 @@ footer {
   background-color: white;
 }
 
-.about-me-content p {
+.about-me-content {
   margin-bottom: 30px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 300;
   letter-spacing: 0.8px;
-  line-height: 40px;
+  line-height: 2em;
 }
 
 .p1 {
@@ -504,10 +504,10 @@ figcaption {
     line-height: 48px;
     letter-spacing: 1px;
   }
-  .about-me-content p {
+  /* .about-me-content p {
     font-size: 30px;
     line-height: 50px;
-  }
+  } */
   .lets-chat {
     font-size: 48px;
   }
@@ -613,7 +613,6 @@ figcaption {
   }
   .about-me-content p {
     font-size: 20px;
-    line-height: 40px;
   }
   .second {
     padding-top: 120px;
@@ -678,4 +677,83 @@ figcaption {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.layout-2-columns {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.column-half-width.align-vertically-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.column-half-width.align-vertically-center._1-3-coloumn {
+  width: 32%;
+  margin-bottom: 0px;
+}
+
+.column-half-width.align-vertically-center._2-3-column {
+  width: 65%;
+  margin-bottom: 0px;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.column-half-width.align-vertically-center.align-middle {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.paragraph {
+  margin-bottom: 1.5em;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 2em;
+}
+
+.paragragh-title {
+  margin-bottom: 1em;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 2em;
 }
