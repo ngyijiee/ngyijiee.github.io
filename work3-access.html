@@ -5,12 +5,13 @@
          var password = "ngyijiee";
          (function passcodeprotect() {
             var passcode = prompt("Enter password to view portfolio");
-            while (passcode !== password) {
+            if (passcode !== password) {
                alert("Oops! Incorrect password. Please make sure there is no whitespace in password.");
-               return index.html();
+               window.location.href = "index.html";
+            } else {
+               window.location.href = "work3.html";
             }
          }());
-         alert('Welcome To The Case Study!');
       </script>
    </body>
 </html>
