@@ -276,6 +276,11 @@ a {
   padding-bottom: 20px;
 }
 
+.fourth {
+  z-index: 0;
+  padding-bottom: 20px;
+}
+
 .disappear {
   opacity: 0;
   transform: translateY(20px);
